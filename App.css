@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; /* Light, aesthetic background */
+  color: #333333; /* Dark text for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card Styles */
+.card {
+  max-width: 350px;
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading Styles */
+.card h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+/* Counter Display */
+.count-display {
+  background-color: #e7eff6;
+  color: #333333;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  flex-direction: column; /* Align buttons vertically */
+  gap: 15px; /* Add spacing between buttons */
+  margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Increase Button */
+.increase-btn {
+  background-color: #4caf50; /* Vibrant green */
+  color: #ffffff;
+}
+
+.increase-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+/* Decrease Button */
+.decrease-btn {
+  background-color: #f44336; /* Vibrant red */
+  color: #ffffff;
+}
+
+.decrease-btn:hover {
+  background-color: #d32f2f;
+  transform: translateY(-3px);
+}
+
+/* Button Focus State */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
